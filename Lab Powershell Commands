@@ -14,5 +14,5 @@ Get-Mailbox "Pod1000-calbook-controlfreak" | Set-CalendarProcessing -ProcessExte
 Get-Mailbox "Pod1000-onsitebook-goodtoo" | Set-CalendarProcessing -ProcessExternalMeetingMessages $true
 Get-Mailbox "Pod1000-standalonenav-nodevicereally" | Set-CalendarProcessing -ProcessExternalMeetingMessages $true
 Set-CalendarProcessing -Identity Pod1000-calbook-controlfreak -DeleteSubject $False -AddOrganizerToSubject $False -DeleteComments $false
-Set-CalendarProcessing -Identity Pod1000-onsitedook-goodtoo -DeleteSubject $False -AddOrganizerToSubject $False -DeleteComments $false
+Set-CalendarProcessing -Identity Pod1000-onsitebook-goodtoo -DeleteSubject $False -AddOrganizerToSubject $False -DeleteComments $false
 Set-CalendarProcessing -Identity Pod1000-standalonenav-nodevicereally -DeleteSubject $False -AddOrganizerToSubject $False -DeleteComments $false
